@@ -17,10 +17,10 @@ h1{
     margin: 30px auto;
     background: rgb(23, 99, 150)
  }
- .menu ul {
+ .menus ul {
     list-style: none;
  }
  
- .menu > li{
+ .menus > li{
     display: inline-block
  }
