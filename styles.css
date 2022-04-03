@@ -1,25 +1,4 @@
-*{
-    margin: 0%;
-    padding: 0%;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 
-}
-
-body{
-    background: rgb(76, 107, 105);
+ h1{
+    color: aqua; font - size: 50px;
  }
- .menu{
-    widht: 1000px;
-    margin: 30px auto;
-    background: rgb(167, 10, 10)
- }
- .menu ul {
-    list-style: none;
- }
- 
- .menu > li{
-    display: inline-block
- }
- 
