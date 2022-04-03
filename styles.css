@@ -10,12 +10,12 @@ h1{
     box-sizing: border-box;
  }
  body{
-    background: rgb(255, 254, 254);
+    background: rgb(255, 3, 3);
  }
  .menu{
     width: 1000px;
     margin: 30px auto;
-    background: rgb(23, 99, 150)
+    background: rgb(253, 253, 253)
  }
  .menus ul {
     list-style: none;
