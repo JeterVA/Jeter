@@ -32,4 +32,7 @@ h1{
     font-family: fantasy;
     text-decoration: none;
  }
-
+ .menus li a:hover{
+    color: aqua;
+       
+ }
