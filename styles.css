@@ -25,10 +25,11 @@ h1{
     display: inline-block
  }
 
- .menu > li > a{
+ .menus > li > a{
     display: block;
     padding: 15px 20px;
     color: #540d92;
     font-family: fantasy;
     text-decoration: none;
  }
+
