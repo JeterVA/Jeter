@@ -1,5 +1,5 @@
 h1{
-    color: #ffffff; font-size: 50px;
+    color: #ffffff; font-size: 60px;
 
 }
 *{
@@ -35,5 +35,8 @@ h1{
  .menus li a:hover{
     color: rgb(0, 0, 0);
        
+ }
+ h2{
+    color: #ffffff; font-size: 35px;
  }
 
