@@ -49,10 +49,20 @@ p{
 .LP{
    color: #ffffff;
    margin:0px auto;
-   padding: 15px 70px;
+   padding: 1px 70px;
 }
-.APP{
-   margin-left: 0px auto;
-   padding-left: 10px 80px;
+.lole{
+   position: relative;
+   top: -950px;
+   right: 350px;
+   width: 200px;
+   height: 250px;
+   border-radius: 50%;
+   margin: 50%;
+   display: block;
 
+}
+.lel{
+   margin: 30px;
+   padding:5px 90px;
 }
