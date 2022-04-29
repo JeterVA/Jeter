@@ -15,7 +15,8 @@ h1{
  .menu{
     width: 1000px;
     margin: 30px auto;
-    background: rgb(253, 253, 253)
+    background: rgb(253, 253, 253);
+    padding-left: 0 80px;
  }
  .menus ul {
     list-style: none;
@@ -31,6 +32,7 @@ h1{
     color: #540d92;
     font-family: fantasy;
     text-decoration: none;
+    
  }
  .menus li a:hover{
     color: rgb(0, 0, 0);
@@ -53,7 +55,7 @@ p{
 }
 .lole{
    position: relative;
-   top: -950px;
+   top: -930px;
    right: 350px;
    width: 200px;
    height: 250px;
@@ -62,7 +64,34 @@ p{
    display: block;
 
 }
-.lel{
-   margin: 50px;
-   padding:5px 90px;
+.buscar{
+   position: absolute;
+   padding: 5px;
+}
+.buscar input{
+   width: 240px;
+   height: 40px;
+   padding-left: 0 300
+   px;
+   font-size: 18px;
+   color:black;
+   outline:none ;
+   border: 1px solid silver;
+   border-radius: 30px;
+   transition: all 0.6s ease;
+}
+.btn{
+   position: absolute;
+   top: 0;
+   right: 0;
+   background-color: #ffffff;
+   width: 55px;
+   height: 55px;
+   line-height: 55px;
+   text-align: center;
+   color: #540d92;
+   font-size: 20px;
+   border-radius: 50%;
+   cursor: pointer;
+
 }
