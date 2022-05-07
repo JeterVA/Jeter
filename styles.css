@@ -23,7 +23,8 @@ h1{
  }
  
  .menus > li{
-    display: inline-block
+    display: inline-block;
+    text-align: center;
  }
 
  .menus > li > a{
@@ -32,7 +33,7 @@ h1{
     color: #540d92;
     font-family: fantasy;
     text-decoration: none;
-    
+    padding-left: 30px;
  }
  .menus li a:hover{
     color: rgb(0, 0, 0);
@@ -53,9 +54,19 @@ p{
    margin:0px auto;
    padding: 1px 70px;
 }
-.lole{
+.iphone12{
    position: relative;
-   top: -1000px;
+   top: -975px;
+   right: 350px;
+   width: 200px;
+   height: 250px;
+   border-radius: 50%;
+   margin: 50%;
+   display: block;
+
+}
+.Samsung21S{
+   position: relative;
    right: 350px;
    width: 200px;
    height: 250px;
@@ -72,6 +83,7 @@ ul.slider{
 }
 
 ul.slider li{
+   margin-top: -180%;
    position: absolute;
    left: 0;
    top: 0;
@@ -80,6 +92,7 @@ ul.slider li{
    height: inherit;
    background-color: #ffffff;
    transition: opacity ,5s;
+   margin-left: 35%;
 }
 ul.slider li img{
    width: 100%;
@@ -89,6 +102,7 @@ ul.slider li img{
 }
 ul.slider li:first-child{
    opacity: 1;
+   
 
 }
 ul.slider li:target{
@@ -114,5 +128,6 @@ ul.slider li:target{
    width: 20px;
    height: 20px;
    font-size: 20px;
-   border-radius: 100%
+   border-radius: 100%;
+   text-align:center;
 }
