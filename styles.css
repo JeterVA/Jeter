@@ -1,133 +1,92 @@
-h1{
-    color: #ffffff; font-size: 60px;
-
+body{
+   background-color: rgb(22, 22, 29);
 }
-*{
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box ;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
- }
- body{
-    background: rgb(9, 37, 99);
- }
- .menu{
-    width: 1000px;
-    margin: 30px auto;
-    background: rgb(253, 253, 253);
-    padding-left: 0 80px;
- }
- .menus ul {
-    list-style: none;
- }
- 
- .menus > li{
-    display: inline-block;
-    text-align: center;
- }
-
- .menus > li > a{
-    display: block;
-    padding: 15px 20px;
-    color: #540d92;
-    font-family: fantasy;
-    text-decoration: none;
-    padding-left: 30px;
- }
- .menus li a:hover{
-    color: rgb(0, 0, 0);
-       
- }
- h2{
-    color: #ffffff; font-size: 35px;
- }
-
-p{
-   color: #ffffff;
-   margin: 0px auto;
-   padding: 15px 70px;
-   font-size: 20px;
-}
-.LP{
-   color: #ffffff;
-   margin:0px auto;
-   padding: 1px 70px;
-}
-.iphone12{
-   position: relative;
-   top: -975px;
-   right: 350px;
-   width: 200px;
-   height: 250px;
-   border-radius: 50%;
-   margin: 50%;
-   display: block;
-
-}
-.Samsung21S{
-   position: relative;
-   right: 350px;
-   width: 200px;
-   height: 250px;
-   border-radius: 50%;
-   margin: 50%;
-   display: block;
-
+.inicio{
+   height: 420px;
+   width: 50%;
+   display: flex;
+   margin: auto;
+   border-radius: 7px;
+   box-shadow: 0px 14px 32px 0px rgba(2, 13, 75, 0.5);
+   overflow: hidden;
+   box-sizing: border-box;
 }
 
-ul.slider{
-   position: relative;
-   width: 800px;
-   height: 300px;
+.inicio.img{
+   width: 50%;
 }
 
-ul.slider li{
-   margin-top: -180%;
-   position: absolute;
-   left: 0;
-   top: 0;
-   opacity: 0;
-   width: inherit;
-   height: inherit;
-   background-color: #ffffff;
-   transition: opacity ,5s;
-   margin-left: 35%;
-}
-ul.slider li img{
+.inicio .img img{
    width: 100%;
-   height: 300px;
-   object-fit: cover;
+   vertical-align: top;
 
 }
-ul.slider li:first-child{
-   opacity: 1;
-   
 
-}
-ul.slider li:target{
-   opacity: 1;
+.productosinfo{
+   width: 150%;
+   border-radius: 0 7px 10px 7px;
+   background-color: white;
 }
 
-.menuu{
+.productostext{
+   width: 100%;
+}
+.productostext h1{
+   margin-left: 38px;
+   padding-top: 52px;
+   font-size: 34px;
+   color: #0a0347;
+}
+
+.productostext h1, .precio-btn{
+   font-family: 'Times New Roman', Times, serif;
+
+}
+.productostext h2{
+   margin: 0 0 47px 38px;
+   font-family: sans-serif;
+   font-size: 13px;
+   text-transform: uppercase;
+   color: #0a0347;
+   letter-spacing: .2em;
+
+}
+
+.productostext p{
+   height: 125px;
+   margin-left: 38px;
+   font-family: serif;
+   color: #000000;
+   line-height: 1.7em;
+
+}
+
+.precio-btn{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.precio-btn a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
    text-align: center;
-   margin: 20px;
+   line-height: 45px;
 }
 
-.menuu li{
-   display: inline-block;
-   text-align: center;
+.precio-btn a:hover{
+   background: #0a0347;
 }
 
-.menuu li a{
-   display:inline-block;
-   color:white ;
-   text-decoration:none ;
-   background-color:grey ;
-   padding:10px ;
-   width: 20px;
-   height: 20px;
-   font-size: 20px;
-   border-radius: 100%;
-   text-align:center;
-}
+
+
