@@ -1,0 +1,42 @@
+h1{
+    color: #ffffff; font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box ;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+ }
+ body{
+    background: rgb(9, 37, 99);
+ }
+ .menu{
+    width: 1000px;
+    margin: 30px auto;
+    background: rgb(253, 253, 253);
+    padding-left: 0 80px;
+ }
+ .menus ul {
+    list-style: none;
+ }
+ 
+ .menus > li{
+    display: inline-block;
+    text-align: center;
+ }
+
+ .menus > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: #540d92;
+    font-family: fantasy;
+    text-decoration: none;
+    padding-left: 30px;
+ }
+ .menus li a:hover{
+    color: rgb(0, 0, 0);
+       
+ }
