@@ -55,18 +55,18 @@ p{
 html, body{
    margin: 0;
    padding: 0;
-   }
+}
    
-   body{
+body{
    width: 100%;
    height: 100%;
    font-family: sans-serif;
    letter-spacing: 0.03em;
    line-height: 1.6;
    font-family: 'Open Sans', sans-serif;
-   }
+}
    
-   .title{
+.title{
    text-align: center;
    font-size: 40px;
    color: #ece9e9;
@@ -74,10 +74,10 @@ html, body{
    font-weight: 100;
    font-family: fantasy;
    text-decoration: none;
-   }
+}
    
    
-   .container{
+.container{
    width: 100%;
    max-width: 1200px;
    height: 430px;
@@ -85,9 +85,9 @@ html, body{
    flex-wrap: wrap;
    justify-content: center;
    margin: auto;
-   }
+}
    
-   .container .card1{
+.container .card1{
    width: 330px;
    height: 430px;
    border-radius: 8px;
@@ -96,26 +96,27 @@ html, body{
    margin: 20px;
    text-align: center;
    transition: all 0.25s;
-   }
-   
-   .container .card1:hover{
-   transform: translateY(-15px);
-   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
-   background-color: #b10606;
-  
 }
-   
-   .container .card1 img{
-   width: 250px;
-   height: 250px;
-   }
-   
-   
-   .container .card1 h4{
-   font-weight: 600;
-   }
 
-    .container .card2{
+.container .card1:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+  
+}
+   
+.container .card1 img{
+   width: 250px;
+   height: 250px;
+}
+   
+   
+.container .card1 h4{
+   font-weight: 600;
+   color:gray
+}
+
+.container .card2{
    width: 330px;
    height: 430px;
    border-radius: 8px;
@@ -124,26 +125,27 @@ html, body{
    margin: 20px;
    text-align: center;
    transition: all 0.25s;
-   }
+}
    
-   .container .card2:hover{
+.container .card2:hover{
    transform: translateY(-15px);
    box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
    background-color: #b10606;
   
 }
    
-   .container .card2 img{
+.container .card2 img{
    width: 250px;
    height: 250px;
-   }
+}
    
    
-   .container .card2 h4{
+.container .card2 h4{
    font-weight: 600;
-   }
+   color:gray
+}
    
-   .container .card3{
+.container .card3{
       width: 330px;
       height: 430px;
       border-radius: 8px;
@@ -152,22 +154,290 @@ html, body{
       margin: 20px;
       text-align: center;
       transition: all 0.25s;
-      }
+}
       
-      .container .card3:hover{
+.container .card3:hover{
       transform: translateY(-15px);
       box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
       background-color: #b10606;
   
-   }
+}
       
-      .container .card3 img{
+.container .card3 img{
       width: 300px;
       height: 250px;
-      }
+}
       
       
-      .container .card3 h4{
+.container .card3 h4{
       font-weight: 600;
-      }
-      
+      color:gray
+}
+
+.container .card4{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card4:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card4 img{
+   width: 300px;
+   height: 250px;
+}
+   
+   
+.container .card4 h4{
+   font-weight: 600;
+   color:gray
+}
+.container .card5{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card5:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card5 img{
+   width: 300px;
+   height: 250px;
+}
+   
+   
+.container .card5 h4{
+   font-weight: 600;
+   color:gray
+}
+
+.container .card6{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card6:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card6 img{
+   width: 300px;
+   height: 250px;
+}
+   
+   
+.container .card6 h4{
+   font-weight: 600;
+   color:gray
+}
+
+.boton12{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.boton12 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.boton12 a:hover{
+   background:gray;
+}
+
+.botonX{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonX a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonX a:hover{
+   background:gray;
+}
+
+
+
+.boton21{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.boton21 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.boton21 a:hover{
+   background:gray;
+}
+
+
+
+.boton20{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.boton20 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.boton20 a:hover{
+   background:gray;
+}
+
+
+
+.botonpoco3{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonpoco3 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonpoco3 a:hover{
+   background:gray;
+}
+
+
+
+.botonnote10{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonnote10 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonnote10 a:hover{
+   background:gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
