@@ -15,10 +15,11 @@ h1{
     background: rgb(9, 37, 99);
  }
  .menu{
-    width: 1000px;
+    width: 1220px;
     margin: 30px auto;
     background: rgb(253, 253, 253);
     padding-left: 0 80px;
+    text-align: center;
  }
  .menus ul {
     list-style: none;
@@ -260,6 +261,7 @@ body{
    color:gray
 }
 
+
 .boton12{
    height: 103px;
    margin-top: 17px;
@@ -402,6 +404,33 @@ body{
 }
 
 
+
+.botonnote10{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonnote10 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonnote10 a:hover{
+   background:gray;
+}
 
 .botonnote10{
    height: 103px;
