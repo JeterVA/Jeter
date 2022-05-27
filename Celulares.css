@@ -261,6 +261,97 @@ body{
    color:gray
 }
 
+.container .card7{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card7:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card7 img{
+   width: 250px;
+   height: 250px;
+}
+   
+   
+.container .card7 h4{
+   font-weight: 600;
+   color:gray
+}
+
+.container .card8{
+   width: 350px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card8:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card8 img{
+   width: 250px;
+   height: 250px;
+}
+   
+   
+.container .card8 h4{
+   font-weight: 600;
+   color:gray
+}
+
+.container .card9{
+   width: 330px;
+   height: 430px;
+   border-radius: 8px;
+   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.781);
+   overflow: hidden;
+   margin: 20px;
+   text-align: center;
+   transition: all 0.25s;
+} 
+
+.container .card9:hover{
+   transform: translateY(-15px);
+   box-shadow: 0 12px 16px rgba(0, 158, 221, 0.2);
+   background-color: #b10606;
+
+}
+   
+.container .card9 img{
+   width: 300px;
+   height: 250px;
+}
+   
+   
+.container .card9 h4{
+   font-weight: 600;
+   color:gray
+}
+
+
+
+
+
 
 .boton12{
    height: 103px;
@@ -458,6 +549,208 @@ body{
 .botonnote10 a:hover{
    background:gray;
 }
+
+.boton13{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.boton13 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.boton13 a:hover{
+   background:gray;
+}
+
+.boton13{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.boton13 a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.boton13 a:hover{
+   background:gray;
+}
+
+.botonA{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonA a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonA a:hover{
+   background:gray;
+}
+
+.botonA{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonA a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonA a:hover{
+   background:gray;
+}
+
+.botonmi{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonmi a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonmi a:hover{
+   background:gray;
+}
+
+.botonmi{
+   height: 103px;
+   margin-top: 17px;
+   display: flex;
+   justify-content: center;
+
+}
+
+.botonmi a{
+   height: 50px;
+   width: 176px;
+   border-radius: 60px;
+   font-family: 'Times New Roman', Times, serif;
+   text-transform: uppercase;
+   letter-spacing: .2em;
+   color: azure;
+   background-color: black;
+   cursor: pointer;
+   text-decoration: none;
+   text-align: center;
+   line-height: 45px;
+}
+
+.botonmi a:hover{
+   background:gray;
+}
+
+.slider {
+	width: 95%;
+	margin: auto;
+	overflow: hidden;
+}
+
+.slider ul {
+	display: flex;
+	padding: 0;
+	width: 400%;
+	
+	animation: cambio 20s infinite alternate linear;
+}
+
+.slider li {
+	width: 100%;
+	list-style: none;
+}
+
+.slider img {
+	width: 50%;
+   background-color: #ffffff;
+   margin-left: 300px;
+}
+
+@keyframes cambio {
+	0% {margin-left: 0;}
+	20% {margin-left: 0;}
+	
+	25% {margin-left: -100%;}
+	45% {margin-left: -100%;}
+	
+	50% {margin-left: -200%;}
+	70% {margin-left: -200%;}
+	
+	75% {margin-left: -300%;}
+	100% {margin-left: -300%;}
+}
+
 
 
 
